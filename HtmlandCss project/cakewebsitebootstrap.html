@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cake website</title>
+    <link rel="stylesheet" href="./css/cakewebsitebootstrap.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.24.1/dist/bootstrap-table.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      /* .car01{
+        position: absolute;
+       height:100px;
+       width:1500px;
+       min-height: 500px;
+       object-fit: cover;
+      } */
+      .carousel-item{
+        /* margin-top: 10rem; */
+        height: 250px;
+        width: 100vw;
+      }
+      .carousel-item img{
+        height: 250px;
+        width: 100vw;
+      }
+      body {
+      background: #fff0f3;
+    }
+    .cake-item img {
+      width: 150px;
+      height: 200px;
+      object-fit: cover;
+      margin: 0 auto;
+      display: block;
+    }
+    .cake-item p {
+      text-align: center;
+      margin-top: 10px;
+      font-weight: 500;
+    }
+    .carousel-wrapper {
+      position: relative;
+    }
+    .scroll-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #555;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+    }
+    .scroll-btn.left {
+      left: 10px;
+    }
+    .scroll-btn.right {
+      right: 10px;
+    }
+    @media screen and (min-width:400px) and (max-width:1000px){
+      .carousel-item{
+        /* margin-top: 10rem; */
+        height: 200px;
+        width: 100vw;
+      }
+      .carousel-item img{
+        height: 200px;
+        width: 100vw;
+      }
+      .car02{
+        width: 100vw;
+      }
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-color-white">
+            <div class="container">
+              <img class="img01" src="./cakelogo.png" height="40px" width="110px"/>
+              <div class="vl"></div>
+              <!-- <a class="navbar-brand" href="#">MySite</a> -->
+              <i class="fa-solid fa-location-dot location"></i>
+              <h5 class="head01">Tamilnadu</h5>
+              <p class="para01">Thanjavur,tamilnadu,612001</p>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul> -->
+              </div>
+              <div>
+                <form>
+                  <input  class="search" type="search" name="search" placeholder="Sending good luck plant or more"/>
+                  <i class="fa-solid fa-magnifying-glass io2" style="color: black"></i>
+                </form>
+              </div>
+              <div class="head02">
+              <i class="fa-solid fa-truck io3"></i>
+              <p class="para02">Same Day</p>
+              <i class="fa-solid fa-indian-rupee-sign io4"></i>
+              <p class="para03">INR</p>
+              <i class="fa-solid fa-gifts io5"></i>
+              <p class="para04">Corporate</p>
+              <i class="fa-solid fa-cart-shopping io6"></i>
+              <p class="para05">Cart</p>
+              <i class="fa-regular fa-circle-user io7"></i>
+              <p class="para06">Hi Guest</p>
+              <i class="fa-solid fa-comment-dots io8"></i>
+              <p class="para07">More</p>
+              </div>
+            </div>
+          </nav>
+    </div></br><hr class="hr1"/>
+    <div class="section">
+     <form>
+      <input class="sec" type="button" name="button" value="Mother's Day"/>
+      <input class="sec" type="button" name="button" value="Birthday"/>
+      <input class="sec" type="button" name="button" value="Occasion"/>
+      <input class="sec" type="button" name="button" value="Annivarsary"/>
+      <input class="sec" type="button" name="button" value="cakes"/>
+      <input class="sec" type="button" name="button" value="Flowers"/>
+      <input class="sec" type="button" name="button" value="Personalised"/>
+      <input class="sec" type="button" name="button" value="Plants"/>
+      <input class="sec" type="button" name="button" value="Chocolates"/>
+      <input class="sec" type="button" name="button" value="Combos"/>
+      <input class="sec" type="button" name="button" value="lifestyles"/>
+      <input class="sec" type="button" name="button" value="Global"/>
+      <input class="sec" type="button" name="button" value="On Trend"/>
+     </form>
+    </div><hr/>
+<div class="car02">
+<div class="container py-4 carousel-wrapper"> 
+  <a href="#carousel-scroll" class="scroll-btn left">&#8249;</a>
+  <div id="carousel-scroll" class="d-flex overflow-auto py-3">
+    <div class="cake-item me-4">
+      <img src="./cake allcake.jpg" alt="All Cakes">
+      <p>All Cakes</p>
+    </div>
+    <div class="cake-item me-4">
+      <img src="./cake birthdaycake.jpg" alt="Birthday Cakes">
+      <p>Birthday Cakes</p>
+    </div>
+    <div class="cake-item me-4">
+      <img src="./cake eggless.jpg" alt="Eggless Cakes">
+      <p>Eggless Cakes</p>
+    </div>
+    <div class="cake-item me-4">
+      <img src="./cake01chocolate.jpg" alt="Chocolate Cakes">
+      <p>Chocolate Cakes</p>
+    </div>
+    <div class="cake-item me-4">
+      <img src="./cake trufflecake.jpg" alt="Truffle Cakes">
+      <p>Truffle Cakes</p>
+    </div>
+    <div class="cake-item me-4">
+      <img src="./cake freshfruit.jpg" alt="Fresh Fruit Cakes">
+      <p>Fresh Fruit Cakes</p>
+    </div>
+    <div class="cake-item me-4">
+      <img src="./cake blackforest.jpg" alt="Black Forest Cakes">
+      <p>Black Forest Cakes</p>
+    </div>
+    <div class="cake-item me-4">
+      <img src="./cake cakewithplants.jpg" alt="Cakes with Flowers">
+      <p>Cakes with Flowers</p>
+    </div>
+    <div class="cake-item me-4">
+      <img src="./cake best seller.jpg" alt="Bestsellers">
+      <p>Bestsellers</p>
+    </div>
+    <div class="cake-item me-4">
+      <img src="./cake getsameday.jpg" alt="Get Same Day">
+      <p>Get Same Day</p>
+    </div>
+  </div>
+<a href="#carousel-scroll" class="scroll-btn right">&#8250;</a>
+</div>
+</div>
+  <div class="color">
+    <div class="container-fluid mt-5 car01">
+      <h2 class="text-center mb-4"></h2>
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/Dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+          ></button>
+        </div>
+
+        <!-- Carousel Inner -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./cakebg01.webp"
+              class="d-block"
+              alt="Slide 1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./cakebg02.webp" class="d-block" alt="Slide 2" />
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls/Arrows -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <!-- Bootstrap JS CDN (Bundle includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <h3 class="text01">Cakes : Fresh & Flavourful</h3>
+    <div class="container card01">
+      <div class="row ro1">
+        <div class="col-lg-4  col-md-4 col-sm-4 co1">
+          <img class="img02"src="./cakesameday.webp" height="500px" width="600px"/>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4  co1">
+          <img  class="img02"src="./cakebestseller.webp" height="500px" width="600px"/>
+        </div>
+      </div>
+    </div>
+    <div class="container card02">
+      <div class="row ro2">
+        <h3 class="text02">Pick A Flavour</h3>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <img class="img03" src="./cake01chocolate.jpg" height="300px" width="300px"/>
+          <p class="para08">Chocolate Cakes</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <img class="img03" src="./cake02truffle.jpg" height="300px" width="300px"/>
+          <p class="para08">Truffle Cake</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <img class="img03" src="./cake03fruit.jpg" height="300px" width="300px"/>
+          <p class="para08">Fresh Fruit Cake</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <img class="img03" src="./cake04butterscotch.jpg" height="300px" width="300px"/>
+          <p class="para08">Butterscotch</p>
+        </div>
+      </div>
+      <div class="row ro3">
+        <div class="col-lg-3">
+          <img class="img03" src="./cake05vannila.jpg" height="300px" width="300px"/>
+          <p class="para08">Vannila Cake</p>
+        </div>
+        <div class="col-lg-3">
+          <img class="img03" src="./cake06redvelvet.webp" height="300px" width="300px"/>
+          <p class="para08">Red Velvet Cake</p>
+        </div>
+        <div class="col-lg-3">
+          <img class="img03" src="./cake07blackforest.jpg" height="300px" width="300px"/>
+          <p class="para08">Black Forest Cake</p>
+        </div>
+        <div class="col-lg-3">
+          <img class="img03" src="./cake08pineapple.jpg" height="300px" width="300px"/>
+          <p class="para08">Pineapple Cake</p>
+        </div>
+      </div>
+    </div>
+    <div class="container card02">
+      <div class="row">
+        <h3 class="text02">Celebrate Special occassion</h3>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <img class="img02" src="./cake10anniversary.webp" height="300px" width="620px"/>
+          <p class="para09">Anniversary</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <img class="img02" src="./cake09birthdaycelebrate.jpg" height="300px" width="620px"/>
+          <p class="para09">Birthday</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <img class="img02" src="./cake11midnight.png" height="300px" width="620px"/>
+          <p class="para09">Midnight Delivery</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <img class="img02" src="./cake12brandnew.webp" height="300px" width="620px"/>
+          <p class="para09">Brand New Arrival</p>
+        </div>
+      </div>
+    </div>
+    <div class="container card02">
+      <h3 class="text02">Tempting Cake Choice</h3>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img class="img02" src="./cake13flower.jpg" height="400px" width="400px">
+          <P  class="para09">Flower N Cakes</P>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img  class="img02" src="./cake14cream.jpg" height="400px" width="400px">
+          <p  class="para09">Cream Cake</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img  class="img02" src="./cake15kids.jpg" height="400px" width="400px">
+          <p  class="para09">Kids Cake</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img class="img02" src="./cake16dry.jpg" height="400px" width="400px">
+          <P  class="para09">Dry cake</P>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img class="img02" src="./cake17fondant.jpg" height="400px" width="400px">
+          <P  class="para09">Fondant Cake</P>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <img class="img02" src="./cake18photo.jpg" height="400px" width="400px">
+          <P  class="para09">Photo Cake</P>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+  <div class="foot01">
+    <h4 class="head1">Get Online Cake Delivery for a Variety of Cake Flavors</h4>
+    <p>The best part about cake is that there can be a large variety of flavors and one can experiment with it quite often.
+       Any flourishing cake shop would vouch by this criteria because variety keeps people interested. In our online cake shop, 
+       you would discover a plethora of cake flavors and we take a bit of pride in that.
+       You would find a cake flavor for all your family members, friends, and relatives having varied preferences.</p>
+  </div></br>
+  <div class="foot02">
+    <div class="f1">
+    <h4 class="head4">Policy Info</h4>
+    <p>Terms&Conditions</p>
+    <P>Privacy Policy</P>
+    <p>Terms of Use</p>
+    <p>Disclaimer</p>
+    </div>
+    <div class="v2"></div>
+    <div class="f1">
+      <h4  class="head4">About Company</h4>
+      <p>About Us</p>
+      <p>FNP Team</p>
+      <p>Careers</p>
+      <p>News Room</p>
+    </div>
+    <div class="v2"></div>
+    <div class="f1">
+      <h4  class="head4">FNP Bussiness</h4>
+      <p>Decoration Services</p>
+      <p>Corporate Service</p>
+      <p>Affiliate Program</p>
+      <p>Retails Store</p>
+      <p>Franchise</p>
+    </div>
+    <div class="v2"></div>
+    <div class="f1">
+      <h4  class="head4">Need Help?</h4>
+      <p>Contact Us</p>
+      <p>FAQs</p>
+    </div>
+    <div class="v2"></div>
+    <div class="f1">
+      <h4  class="head4">Useful Links</h4>
+      <P>Quotes N Wishes</P>
+      <p>Flower Astrology</p>
+      <p>Article Hub</p>
+      <p>Care Guide</p>
+      <p>Blog</p>
+    </div><hr/>
+  </div>
+  <div class="f2">
+    <p class="para10">Company Name: FNP E Retail Private Limited | CIN: U52100DL2021PTC376303 | Regd. Office Address: FNP Estate, Ashram Marg, Mandi Road, Gadaipur, New Delhi-110030</br>
+
+      Telephone No.: +91-11-26802680 | E-mail: help@fnp.com | Grievance Resolution Officer Name: Ms. Preeti Bindra | Contact No.: +91 9212422000 / 9755-248-248
+      
+      </p>
+  </div>
+  </div>
+</body>
+</html>
