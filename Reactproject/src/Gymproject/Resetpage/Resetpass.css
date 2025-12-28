@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Resetpassimage{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../src/assets/image/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Reset{
+    /* border: 2px solid red; */
+    height: 29rem;
+    width: 31rem;
+    margin-left: 50px;
+    /* margin-top:1rem; */
+    background-color: white;
+    border-radius: 18px;
+    position: relative;
+    top: 7rem;
+}
+.Heading04{
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+    position: relative;
+    top: 40px;
+    left: 9rem;
+    /* border: 2px solid red; */
+    /* margin-top: 4rem; */
+    height: 50px;
+    width: 12rem;
+}
+.subHeadingReset{
+    margin-left: 1rem;
+    margin-top: -1px;
+    color: black;
+    border-left: 2px solid black;
+    padding-left: 15px;
+}
+.subHeadingreset01{
+    color: black;
+    margin-top: 4.5rem;
+    margin-left:-2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.Button04{
+    text-align: center;
+}
+.But4{
+    background-color:var(--bg-color);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin-left: -20px;
+    /* left: 14rem; */
+    border-radius: 4px;
+    height: 33px;
+    width: 7rem;
+    padding: 2px;
+}
+.But4:hover{
+    background-color:rgb(123, 31, 31) ;
+}
+.subparareset{
+    color: red;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: -2rem;
+}
+.inputboxreset{
+    margin-top: -1rem;
+}

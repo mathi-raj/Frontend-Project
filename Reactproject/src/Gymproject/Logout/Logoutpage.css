@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logoutpagepopup{
+     height: 84%;
+    width: 76.6rem;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    position: absolute;
+    top: 5.6rem;
+    left: -4px;
+    left: 18.5rem;
+   background-color: rgb(242, 239, 234,0.6);
+}
+.logoutpopup{
+     color: black;
+    height: 36%;
+    width: 35%;
+    /* border: 2px solid red; */
+    margin-top: 13rem;
+    margin-left: 25rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 14px 3px rgb(206, 202, 202);
+}
+.logoutpopuppara{
+    color: black;
+    height: 1.6rem;
+    width: 13rem;
+    /* border: 2px solid red; */
+    margin-left: 7rem;
+    position: relative;
+    top: 3rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+.logoutpopupbut1{
+    background-color: black;
+    height: 2rem;
+    width: 6rem;
+    margin-top: 6.7rem;
+    margin-left: 1rem;
+    border-radius: 3px;
+   padding-top: 2px;
+   font-size: 17px;
+}
+.logoutpopupbut2{
+     background-color: whitesmoke;
+    border: 2px solid black;
+    height: 2rem;
+    width: 6rem;
+    color: black;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    border-radius: 3px;
+   font-size: 17px;
+   padding-top: 2px;
+   font-size: 17px;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.DashboardAccountpage{
+    height: 52%;
+    width: 79.5vw;
+    border: 2px solid red;
+    margin-left: 18.5rem;
+    position: absolute;
+    top: 20rem;
+     background-color: rgb(215, 210, 210,0.2);
+    border: 1px solid  rgb(215, 210, 210,0.2) ;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 0px rgb(206, 202, 202);
+}
+.Dashboardpara{
+    color: black;
+    font-size: 18px;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}

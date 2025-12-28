@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.viewregisterprofilepopup01{
+     height: 84%;
+    width: 76.6rem;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    position: absolute;
+    top: 5.6rem;
+    left: 18.5rem;
+   background-color: rgb(242, 239, 234,0.6);
+   color: black;
+}
+.Viewregisterprofile01{
+     color: black;
+    height: 80%;
+    width: 55%;
+    /* border: 2px solid red; */
+    margin-top: 5rem;
+    margin-left: 18rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 14px 3px rgb(206, 202, 202);
+}
+.profilepara{
+    color: black;
+    font-weight: bold;
+    position:relative;
+    text-align: left;
+    top: 0.7rem;
+    left: 1.2rem;
+}
+.profilebackpara{
+    position: relative;
+    left: 17rem;
+    top: -1rem;
+    font-size: 17px;
+}
+.profiletablehead{
+    /* border: 2px solid white; */
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
+    width: 43vw;
+ }
+.profiletablehead,.profileth1{
+    border: 2px solid white;
+     font-weight: 490;
+    font-size: medium;
+
+ }
+ .profiletablehead,.profiletd1{
+    border: 2px solid white;
+     font-weight: 500;
+    font-size: medium;
+
+ }
+ .profiletabledetails{
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left:0.3rem;
+    color: black;
+ }
+ .profiletablehead02{
+    /* border: 2px solid rgb(171, 165, 165); */
+     font-weight: 490;
+    font-size: medium;
+
+ }
+ 
+.profiletablehead02{
+    /* border: 2px solid rgb(171, 165, 165); */
+    background-color: white;
+    color: black;
+    /* border-collapse: collapse; */
+    width: 43vw;
+    margin-top: 2.2rem;
+     font-weight: 500;
+    font-size: medium;
+ }
+ .profilepopupbut2{
+ background-color: whitesmoke;
+    border: 2px solid black;
+    height: 2rem;
+    width: 4.5rem;
+    color: black;
+    margin-top: 1.9rem;
+    margin-left: 30rem;
+    border-radius: 3px;
+   font-size: 17px;
+   padding-top: 2px;
+ }
+ .profilepopupbut1{
+     background-color: black;
+   height: 2rem;
+    width: 5rem;
+    position: absolute;
+    top:37.8rem;
+    margin-left: 64rem;
+    border-radius: 3px;
+   padding-top: 2px;
+   font-size: 17px;
+ }

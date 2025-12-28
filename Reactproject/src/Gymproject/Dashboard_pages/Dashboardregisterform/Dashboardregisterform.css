@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Dashboardregisterform{
+    background-image: url("../src/assets/image/background1.jpg");
+    background-size: cover;
+    height: 84%;
+    width: 76.5rem;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    position: absolute;
+    top: 5.6rem;
+    left: 18.5rem;
+}
+.registerheader{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 28px;
+}
+.registerbackpara{
+    text-align: end;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    font-size: 20px;
+}
+.register{
+    background-color: rgb(172, 170, 170,0.4);
+    height:28rem ;
+    width:24rem ;
+    border-radius: 13px;
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.registerbutton{
+    background-color: white;
+    color: black;
+    height: 2rem;
+    width: 9rem;
+    padding: 2px;
+    font-size: 17px;
+    margin-left: 42rem;
+    position: relative;
+    top: 2rem;
+}
+.registerphoto{
+    height: 13rem;
+    width: 16%;
+    background-color: white;
+    /* border: 2px solid red; */
+    margin-top: -25rem;
+    margin-left: 40rem;
+     border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.PaymentHistorypage{
+     height: 83.5%;
+    width: 77rem;
+    border-radius: 10px;
+    position: absolute;
+    top: 5.6rem;
+    left: 18rem;
+   background-color: rgba(211, 209, 205, 0.5);
+}
+.paymentpara{
+     font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 2rem;
+}

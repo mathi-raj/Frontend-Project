@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Dashboardregister{ 
+    border: 2px solid red;
+    /* position: relative;
+    top: -42rem;
+    left: 19%; */
+    height: 13rem;
+    width: 79.7%;
+    /* margin-top: -41.8rem; */
+    margin-left: 19%;
+    background-color: rgb(215, 210, 210,0.2);
+    border: 1px solid  rgb(215, 210, 210,0.2) ;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 0px rgb(206, 202, 202);
+    position: absolute; 
+     top: 5.5rem;   
+}
+.dashboardcomp{
+    font-size: 17px;
+}
+.Register{
+    text-align: center;
+    margin-top: 2rem;
+}
+.Registerbutton{
+    width: 24rem;
+    height: 3.5rem;
+    border-radius: 4px;
+    background-color: rgb(11, 22, 72);
+}
+.Accountpage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.Accountpagebutton{
+    height: 4rem;
+    width:22rem;
+    padding: 10px 60px 20px 60px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(42, 187, 42);
+    /* margin-left: -6rem; */
+}
+.Accountpagebutton:hover{
+    background-color:rgb(141, 136, 127,0.9);
+    border-color:rgb(141, 136, 127,0.9) ;
+}
+.Accountexpiredbutton{
+    height: 4rem;
+    width:22rem;
+    padding: 10px 60px 20px 60px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    border-bottom: 5px solid red;
+}
+.Accountexpiredbutton:hover{
+    border-bottom: 5px solid red;
+   border-left: 1px solid red;
+   border-right: 1px solid red;
+   border-top: 1px solid red;
+}
+/* .DashboardAccountpagecomp{
+    height: 184%;
+    width: 79.5vw;
+    border: 2px solid red;
+    margin-left: 18.5rem;
+    position: absolute;
+    top: 14rem;
+     background-color: rgb(215, 210, 210,0.2);
+    border: 1px solid  rgb(215, 210, 210,0.2) ;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 0px rgb(206, 202, 202);
+}
+.Dashboardparacomp{
+    color: black;
+    font-size: 18px;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-left: 10px;
+} */

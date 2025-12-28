@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Loginpageimage{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../src/assets/image/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: black;
+    height: 40px;
+    width: 50px;
+}
+.login{
+    /* border: 2px solid red; */
+    height: 31rem;
+    width: 31rem;
+    margin-left: 50px;
+    /* margin-top:1rem; */
+    background-color: white;
+    border-radius: 18px;
+    position: relative;
+    top: 7rem;
+}
+.Heading01{
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+    position: relative;
+    top: 40px;
+    left: 9rem;
+    /* border: 2px solid red; */
+    /* margin-top: 4rem; */
+    height: 50px;
+    width: 12rem;
+}
+.sub_heading{
+    margin-left: 1rem;
+    margin-top: -1px;
+    color: black;
+    border-left: 2px solid grey;
+    padding-left: 15px;
+}
+.forgetpassword{
+    color: black;
+    font-size: smaller;
+    margin-top: 8px;
+    margin-left: 20rem;
+}
+.Sub_heading01{
+    color: black;
+    margin-top: 4.5rem;
+    margin-left: 13rem;
+    font-weight: bold;
+}
+.Button01{
+    text-align: center;
+}
+.But1{
+    background-color:var(--bg-color);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    /* left: 14rem; */
+    border-radius: 6px;
+    height: 35px;
+    width: 7rem;
+    padding: 4px;
+}
+.But1:hover{
+    background-color:rgb(123, 31, 31) ;
+}

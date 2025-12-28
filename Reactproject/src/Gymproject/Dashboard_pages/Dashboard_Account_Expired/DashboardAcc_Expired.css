@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .Dashboardaccexpired{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid red;
+    margin-left: 20rem;
+} */
+ .dashtable{
+    border: 2px solid rgb(171, 165, 165);
+    background-color: white;
+    color: black;
+    /* border-radius: 10px; */
+    border-collapse: collapse;
+    width: 70vw;
+ }
+.dashtable,th{
+    border: 2px solid rgb(171, 165, 165);
+    /* border-radius: 10px; */
+    padding: 8px;
+
+ }
+ .tablebody,td{
+    border: 2px solid rgb(171, 165, 165);
+    padding: 4px;
+    text-align: center;
+ }
+ /* .tablebody{
+   position: relative;
+   top: 2rem;
+    border: 2px solid rgb(171, 165, 165);
+
+ } */
+ .dashboardexpiredtable{
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    padding: 8px;
+ }
+ .renewelbutton{
+    height: 2rem;
+    width: 2.5rem;
+    margin-top: 4px;  
+    background-color: white;
+ }
+ 

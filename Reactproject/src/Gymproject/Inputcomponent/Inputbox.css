@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Inputbox{
+    background-color: rgb(233, 223, 223);
+    color: black;
+    height: 38px;
+    border: 1px solid rgb(233, 223, 223);
+    border-radius: 8px;
+    /* margin-top: 10px; */
+    width: 23rem;
+    margin-left: 60px;
+    text-indent: 35px;
+}
